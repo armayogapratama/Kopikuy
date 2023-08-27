@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital@1&display=swap" rel="stylesheet">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="format/css/style.css">
+
+    <title>Website Kopi Kuy</title>
+</head>
+
+<body>
+
+    <!-- start navbar -->
+
+    <!-- topbar -->
+    <nav class="topbar d-flex justify-content-between">
+        <div class="d-flex">
+            <div class="social d-flex align-items-center ps-4">
+                <a href="http://github.com/armayogapratama"><i class="pe-1" data-feather="github"></i></a>
+                <a href="http://linkedin.com/in/arma-yoga-pratama"><i class="ps-0" data-feather="linkedin"></i></a>
+                <a href="http://instagram.com/gansss_18"><i class="ps-1" data-feather="instagram"></i></a>
+            </div>
+
+            <div class="clock d-flex align-items-center ps-4">
+                <i data-feather="calendar"></i>
+
+                <p id="times" class="times d-flex align-items-start ps-1 pt-3"></p>
+            </div>
+        </div>
+
+            <div class="lang pe-3 align-items-center">
+                <a class="lang-en pe-1" href="#">En</a>
+
+                <p class="pt-3">&#8739</p>
+
+                <a class="lang-id ps-1" href="#">Id</a>
+            </div>
+    </nav>
+
+    <!-- menu -->
+    <nav class="navbar" style="background-color: #551c04; height: 60px;">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand mb-0 h1">Kopi<span>kuy</span></a>
+
+            <div class="menu" id="menu">
+                <a class="ps-0 pe-3" href="index.html">Home</a>
+                <a class="ps-2 pe-3" href="index.html#about">About</a>
+                <a class="ps-2 pe-3" href="index.html#best-seller">Best Seller</a>
+                <a class="ps-2 pe-3" href="index.html#our-team">Our Team</a>
+                <a class="ps-2 pe-3" href="index.html#review">Review</a>
+                <a class="ps-2 pe-0" href="index.html#contact-us">Contact Us</a>
+            </div>
+
+            <div>
+                <a class="shop" id="shop" href="produk.html">Shop</a>
+
+                <a class="chat" href="http://wa.me/6285267745035"><button class="btn my-2 ms-2" type="button">Ask Me</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start hero -->
+
+    <section id="hero" class="hero d-flex align-items-center" style="background-color: #fdddcfce;">
+        <div class="hero-kiri ps-5">
+            <h1>
+                Kopi Kuy <img src="images/icon/icon_kopi.svg" alt="icon kopi">
+            </h1>
+
+            <p>
+                Kopi Kuy merupakan sebuah startup kopi retail yang ingin menyajikan 
+    high quality Coffee untuk para pelanggannya.
+            </p>
+            
+            <a class="video" href="video/BOMBA COFFEE Promotional Video  _ Epic B-roll sequence _ All Handheld _ Daniel Schiffer Inspired.mp4"><i class="pe-1" data-feather="youtube"></i>Watch Video</a>
+
+            <div id="video-popup" class="video-popup">
+                <span>&times;</span>
+
+                <video src="video/BOMBA COFFEE Promotional Video  _ Epic B-roll sequence _ All Handheld _ Daniel Schiffer Inspired.mp4" controls></video>
+            </div>
+        </div>
+
+        <div class="hero-kanan">
+            <img src="images/header/header1.png" alt="header kopi">
+        </div>
+    </section>
+
+    <!-- end hero -->
+
+    <!-- start about -->
+
+    <section class="about col pt-3" id="about">
+        <h2 class="text-center pb-2 pt-5">
+            Gak Ngopi Gak Kuy!
+        </h2>
+
+        <p class="about-text text-center py-3">
+            Didirikan pada 2017, Kopi Kuy merupakan sebuah startup kopi retail 
+    yang ingin menyajikan kopi dengan kualitas tinggi untuk para pelanggannya. 
+    Nama Kuy yang diambil dari "yuk" yang merupakan harapan kami untuk mengajak semua 
+    yang terlibat dalam bisnis kami untuk bersama-sama menikmati sajian kopi yang berkualitas.
+        </p>
+
+        <div class="about-fix d-flex">
+            <img class=" pe-2" src="images/about-us/aset_kopi_jumbo.png" alt="Meracik Kopi">
+
+            <p class="about-ex text-center">
+                "Kopi yang kami jual, hanya dari petani terpilih, dan berkualitas tinggi diproses 
+    secara sempurna dan diteruskan oleh para barista handal, yang penuh semangat 
+    dalam menyiapkan segelas kebahagiaan spesial untuk anda."
+            </p>
+        </div>
+    </section>
+
+    <!-- end about -->
+
+    <!-- start best seller -->
+
+    <section class="best-seller pt-3" id="best-seller" style="background-color: #fdddcfce;">
+        <h2 class="text-center pt-5">
+            Menu Andalan Kami
+        </h2>
+
+        <p class="best-text text-center pt-3 pb-5">
+            Nikmati menu andalan yang menjadi favorit customer Kami
+        </p>
+
+        <div class="produk d-flex mx-5 pt-5">
+            <div class="produk-img">
+                <img src="images/produk/product_capuchino.jpg" alt="Capuchino">
+
+                <p>Capuchino</p>
+            </div>
+
+            <div class="produk-img">
+                <img src="images/produk/product_espresso.jpg" alt="Espresso">
+
+                <p>Espresso</p>
+            </div>
+
+            <div class="produk-img">
+                <img src="images/produk/product_kopi_susu.jpg" alt="Kopi Susu">
+
+                <p>Kopi Susu</p>
+            </div>
+
+            <div class="produk-img">
+                <img src="images/produk/product_latte.jpg" alt="Latte">
+
+                <p>Latte</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- end best seller -->
+
+    <!-- start our team -->
+
+    <section class="our-team text-center pt-5" id="our-team" style="background-image: url(images/background/bgkopi.png); width: 100%; height: 700px;">
+        <h2 class="pt-4 pb-3">
+            Our Team
+        </h2>
+
+        <p class="our-text pt-1 pb-5">
+            Kami berinvestasi dalam rasa - mulai dari pemilihan biji, metode pemanggangan, 
+    hingga barista dengan sertifikat internasional.
+        </p>
+
+        <div class="team-team d-flex mx-5 justify-content-between">
+            <div class="team ps-5">
+            <img src="images/team/team1.jpg" alt="Riki Steven">
+
+            <p>Founder Kopi Kuy</p>
+
+            <h3>Riki Steven</h3>
+        </div>
+
+        <div class="team">
+            <img src="images/team/team2.jpg" alt="Andi Asraf">
+
+            <p>Head of Marketing</p>
+
+            <h3>Andi Asraf</h3>
+        </div>
+
+        <div class="team">
+            <img src="images/team/team3.jpg" alt="Angelina Felly">
+
+            <p>Barista</p>
+
+            <h3>Angelina Felly</h3>
+        </div>
+
+        <div class="team pe-5">
+            <img src="images/team/team4.jpg" alt="Sarah Chou">
+
+            <p>Barista</p>
+
+            <h3>Sarah Chou</h3>
+        </div>
+        </div>
+    </section>
+
+    <!-- end our team -->
+
+    <!-- start review -->
+
+    <section class="review text-center pt-3" id="review">
+        <h2 class="pt-3 pb-3">
+            Apa Kata Mereka
+        </h2>
+
+        <p class="review-text pt-1 pb-5">
+            Kami berikan fakta dan data, karena kepuasan konsumen selalu nomor 1 untuk kami.
+        </p>
+
+        <div class="slides">
+            <div class="slide d-flex mx-5 py-4 align-items-center justify-content-between" style="background-color: #d7d7d73a;">
+                <div class="slide-text px-5">
+                    <p class="slide-para">
+                        "Perdana kesini langsung merasa cocok dari segi tempat dan rasa. 
+        Baristanya ramah dan pelayanannya maksimal, tidak sungkan bertanya keinginan pengunjung."
+                    </p>
+
+                    <h3>
+                        Benny Oktavian
+                    </h3>
+
+                    <p>Mahasiswa</p>
+                </div>
+
+                <img src="images/customer/customer1.jpg" alt="Mahasiswa">
+            </div>
+
+            <div class="slide d-flex mx-5 py-4 align-items-center justify-content-between">
+                <img src="images/customer/customer2.jpg" alt="Karyawan Swasta">
+
+                <div class="slide-text px-5">
+                    <p class="slide-para">
+                        "Asik buat santai sm tmn2, tempatnya nyaman dan yg bikin seru banyak game2nya 
+        yg bs dimainkan bareng tmn2 atau saudara, menunya enak2, pokoknya recomend 
+        banget deh tempatnya wajib coba guys!!! Pelayanannya ramah banget 🤗."
+                    </p>
+
+                    <h3>
+                        Rena Oktaviana
+                    </h3>
+
+                    <p>
+                        Karyawan Swasta
+                    </p>
+                </div>
+            </div>
+
+            <div class="slide d-flex mx-5 py-4 align-items-center justify-content-between" style="background-color: #d7d7d73a;">
+                <div class="slide-text px-5">
+                    <p class="slide-para">
+                        "Tempat nya nyaman sekali pasti kalo kalian dateng betah ... 
+        selain tempat yang nyaman lalu pelayanan nya good banget... 
+        dan kalian yang datang ke kopi kuy jangan lewatkan permainan yang disediakan 
+        oleh kopi kuy , banyak banget game nya!"
+                    </p>
+
+                    <h3>
+                        Bagas Renaldo
+                    </h3>
+
+                    <p>Dosen</p>
+                </div>
+
+                <img src="images/customer/customer3.jpg" alt="Dosen">
+            </div>
+        </div>
+    </section>
+
+    <!-- end review -->
+
+    <!-- start contact us -->
+
+    <section class="contact-us text-center" id="contact-us">
+
+        <h2 class="py-5">
+            Need Info? <span>Contact Us</span>
+        </h2>
+
+        <div class="more d-flex mx-5" style="background-color: #d7d7d73a;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.741866032694!2d106.668581!3d-6.214715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9912c7f297b%3A0xe5a3a671dae861ab!2sKopi%20kuy!5e0!3m2!1sid!2sid!4v1680617229460!5m2!1sid!2sid"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="more-info d-block">
+                <div class="info pt-4 ps-4">
+                    <a href="http://wa.me/6285267745035"><img src="images/icon/icon_phone.png" alt="Phone"></a>
+
+                    <p>Phone</p>
+                </div>
+
+                <div class="info ps-4">
+                    <a href="mailto:armayogapratama%gmail.com"><img src="images/icon/icon_mail.png" alt="Email"></a>
+
+                    <p>Email</p>
+                </div>
+
+                <div class="info ps-4">
+                    <a href="http://instagram.com/gansss_18"><img src="images/icon/icon_instagram.png" alt="Instagram"></a>
+
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end contact us -->
+
+    <!-- start footer -->
+
+    <footer class="footer d-flex justify-content-between text-center align-items-center" id="footer" style="background-color: #551c04; width: 100%; height: 80px;">
+        <div class="am ms-5">
+            <a href="http://github.com/armayogapratama"><i class="pe-1" data-feather="github"></i></a>
+            <a href="http://linkedin.com/in/arma-yoga-pratama"><i class="ps-0" data-feather="linkedin"></i></a>
+            <a href="http://instagram.com/gansss_18"><i class="ps-1" data-feather="instagram"></i></a>
+        </div>
+        
+        <div class="me">
+            <div class="me-nu" id="me-nu">
+                <a class="ps-2 pe-3 text-decoration-none" href="#">About</a>
+                <a class="ps-2 pe-3 text-decoration-none" href="#">Best Seller</a>
+                <a class="ps-2 pe-3 text-decoration-none" href="#">Our Team</a>
+                <a class="ps-2 pe-3 text-decoration-none" href="#">Review</a>
+            </div>
+        </div>
+
+        <p class="me-5" style="color: #fff;">
+            Copyright kopi kuy: © 2023 Kopi Kuy. All Rights Reserved
+        </p>
+    </footer>
+
+    <!-- end footer -->
+
+
+
+    <!--
+        Kode HTML tidak boleh lewat dari batas ini
+        Pastikan setiap section di tutup
+        misalnya kode <section class="best-seller"> harus ada
+        di bawah kode </header> (perhatikan ada garis miringnya
+        dan setiap section harus setelah kode </section>
+        jangan menulis <section> di dalam <section>
+    -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script>
+        feather.replace();
+    </script>
+
+    <script src="format/js/style.js"></script>
+
+</body>
+
+</html>
